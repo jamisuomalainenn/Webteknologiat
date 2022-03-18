@@ -7,8 +7,10 @@
 
 <body>
     <form>
+
         <fieldset>
             <legend>Yhteystiedot</legend>
+
             <table>
                 <tr>
                     <td><label>First name</label></td>
@@ -29,20 +31,36 @@
                 </tr>
                 <td><label>Phone</label></td>
                     <td><input type="phone" id="phone" name="phone"></td>
-                    
+
                 </tr>
 
 
             </table>
 
         </fieldset>
+
        <fieldset>
+
         <legend>Feedback</legend>
+
             <table>
                 <tr>
                     <td><label>Message subject</label></td>
                     <td><input type="text" id="message" name="message"></td>
                 </tr>
+
+                <tr>
+                    <td><textarea id="text" name="text" rows="10" cols="50">
+                    </textarea></td>
+                </tr>
+
+                <tr><td><label>Attach a file:</label></td>
+                <td><button type="button">Choose File</button></td>
+                <td><label>No file chosen</label></td>
+
+
+            </tr>
+                <td><button type="button">Send</button></td>
             </table>
         </fieldset>
     </form>
