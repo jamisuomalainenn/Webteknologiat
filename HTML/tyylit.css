@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     width: 80%;
     margin: auto;
+    background-color: blue;
 }
 
 .maincontent{
@@ -12,6 +13,11 @@ body{
 
 .card{
     border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
     margin: 10px;
+    padding: 5px;
+    background-color: aqua;
+    flex-grow: 1;
 }
 
