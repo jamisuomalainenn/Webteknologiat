@@ -3,74 +3,53 @@
 
 <head>
     <title>Lomake</title>
-    <link type="text/css" rel="stylesheet" href="tyylit.css">
 </head>
 
+
 <body>
-    <div class="maincontent">
-        <form>
+    <form>
 
-            <fieldset>
-                <div class="card">
-                    <legend>Yhteystiedot</legend>
+        <fieldset>
+            <legend>Yhteystiedot</legend>
 
-                    <table>
-
-                        <tr>
-                            <td><label>First name</label></td>
-                            <td><input type="text" id="fname" name="fname"></td>
-                            <td colspan="1">Preferred contact method:</td>
-                        </tr>
-                        <tr>
-                            <td><label>Last name</label></td>
-                            <td><input type="text" id="lname" name="lname"></td>
-                            <td><input type="checkbox"></td>
-                            <td><label>Email</label></td>
-                        </tr>
-                        <tr>
-                            <td><label>Email</label></td>
-                            <td><input type="email" id="email" name="email"></td>
-                            <td><input type="checkbox"></td>
-                            <td><label>Phone</label></td>
-                        </tr>
-                        <td><label>Phone</label></td>
-                        <td><input type="phone" id="phone" name="phone"></td>
-
-                        </tr>
+            <table>
+                <tr>
+                    <td><label>First name</label></td>
+                </tr>
+                <td><label>Phone</label></td>
+                <td><input type="phone" id="phone" name="phone"></td>
 
 
-                    </table>
-                </div>
-            </fieldset>
+                </tr>
 
-            <fieldset>
-                <div class="card">
-                    <legend>Feedback</legend>
 
-                    <table>
-                        <tr>
-                            <td><label>Message subject:</label>
-                                <input type="text" id="message" name="message">
-                            </td>
-                        </tr>
+            </table>
 
-                        <tr>
-                            <td><textarea id="text" name="text" rows="10" cols="50">
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Feedback</legend>
+
+            <table>
+                <tr>
+                    <td><label>Message subject</label></td>
+                    <td><input type="text" id="message" name="message"></td>
+                </tr>
+
+                <tr>
+                    <td><textarea id="text" name="text" rows="10" cols="50">
                     </textarea></td>
-                        </tr>
+                </tr>
 
-                        <tr>
-                            <td><label>Attach a file:</label>
-                                <button type="button">Choose File</button>
-                            </td>
-                            <td><label>No file chosen</label></td>
+                <tr>
+                    <td><label>Attach a file:</label></td>
+                    <td><button type="button">Choose File</button></td>
+                    <td><label>No file chosen</label></td>
 
 
-                        </tr>
-                        <td><button type="button">Send</button></td>
-                    </table>
-                </div>
-            </fieldset>
-        </form>
-    </div>
-</body>
+                </tr>
+                <td><button type="button">Send</button></td>
+            </table>
+        </fieldset>
+    </form>
