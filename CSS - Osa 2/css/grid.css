@@ -1,26 +1,31 @@
-.pagecontent{
+.pagecontent {
     display: grid;
     grid-template-columns: 100px auto;
     grid-template-rows: 50px auto 50px;
-    grid-template-areas: 
+    grid-template-areas:
         "header header"
         "sidebar main"
         "footer footer";
 }
-.header{
+
+.header {
     grid-area: header;
     background-color: azure;
     text-align: center;
 }
-.sidebar{
+
+.sidebar {
     grid-area: sidebar;
     background-color: aquamarine;
 }
-.main{
+
+.main {
     grid-area: main;
     background-color: aqua;
+    padding: 30px;
 }
-.footer{
+
+.footer {
     grid-area: footer;
     background-color: antiquewhite;
 }
