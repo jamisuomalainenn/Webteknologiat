@@ -10,22 +10,37 @@
 
 .header {
     grid-area: header;
-    background-color: azure;
+    background-color: aquamarine;
     text-align: center;
+    padding: 1;
 }
 
 .sidebar {
     grid-area: sidebar;
     background-color: aquamarine;
+    padding: 10%;
+    padding-right: 10%;
 }
+
 
 .main {
     grid-area: main;
     background-color: aqua;
-    padding: 30px;
+    padding: 300px;
 }
 
 .footer {
     grid-area: footer;
-    background-color: antiquewhite;
+    background-color: aquamarine;
+    padding: 70px;
+    padding-top: 30px;
 }
+
+.kuva {
+    margin: auto;
+    display:grid;
+    column-gap: 1%;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+
