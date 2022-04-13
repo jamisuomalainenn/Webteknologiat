@@ -1,14 +1,20 @@
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-  }
-  
-  console.log(getRandomInt(11));
+let defaultValue;
 
-  
-  // expected output: 0, 1 or 2
-  
- // console.log(getRandomInt(1));
-  // expected output: 0
-  
-  //console.log(Math.random());
-  // expected output: a number from 0 to <1
+$(function() {
+  defaultValue = 5;
+  $("#first-nr").val(defaultValue);
+  $("#second-nr").val(defaultValue);
+});
+
+function setFirstNr(type) {
+  let currentValue = document.getElementById("first-nr").value;
+
+  if (type == 'plus') {
+    // alert ('+');
+    currentValue = currentValue + 1;
+  } else {
+   // alert('-');
+    currentValue = currentValue - 1;
+  }
+  document.getElementById("first-nr").value = currentValue;
+}
