@@ -41,3 +41,4 @@ $('#mid').click(function () {
     window.clearInterval('$("#next").click()', 2000);
 })
 
+document.body.style.backgroundImage = "url('images/maalaus.jpg')";

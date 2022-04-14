@@ -1,6 +1,6 @@
 let defaultValue;
 
-$(function() {
+$(function () {
   defaultValue = 5;
   $("#first-nr").val(defaultValue);
   $("#second-nr").val(defaultValue);
@@ -13,8 +13,9 @@ function setFirstNr(type) {
     // alert ('+');
     currentValue = currentValue + 1;
   } else {
-   // alert('-');
+    // alert('-');
     currentValue = currentValue - 1;
   }
   document.getElementById("first-nr").value = currentValue;
 }
+document.body.style.backgroundImage = "url('images/maalaus.jpg')";

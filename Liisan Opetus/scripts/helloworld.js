@@ -19,5 +19,6 @@ function hideText() {
 //let kartta = "file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/map.html"
 //let carousel = "file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/carousel.html"
 //function kaikkiTehtävät() {
- //   (document.getElementById("navbarDropdownMenuLink").src) = kartta;}
+//   (document.getElementById("navbarDropdownMenuLink").src) = kartta;}
 
+document.body.style.backgroundImage = "url('images/maalaus.jpg')";
