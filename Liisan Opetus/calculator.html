@@ -50,7 +50,8 @@
         <div class="input-group mb-3">
             <button class="btn btn-outline-secondary" type="button" id="button-minus1"
                 onclick="setFirstNr('minus')">-</button>
-            <input type="text" class="form-control" id="first-nr" placeholder=""
+            
+                <input type="text" class="form-control" id="first-nr" placeholder=""
                 aria-label="Example text with button addon" aria-describedby="button-addon1">
 
             <button class="btn btn-outline-secondary" type="button" id="button-plus1"
@@ -64,13 +65,19 @@
             <option value="3">:</option>
         </select>
         <div class="input-group mb-3">
-            <button class="btn btn-outline-secondary" type="button" id="button-minus2">-</button>
-            <input type="text" class="form-control" id="second-nn" placeholder=""
+            <button class="btn btn-outline-secondary" type="button" id="button-minus2" 
+            onclick="setSecondNr('minus')">-</button>
+            
+            <input type="text" class="form-control" id="second-nr" placeholder=""
                 aria-label="Example text with button addon" aria-describedby="button-addon1">
-            <button class="btn btn-outline-secondary" type="button" id="button-plus2">+</button>
+
+            <button class="btn btn-outline-secondary" type="button" id="button-plus2" 
+            onclick="setSecondNr('plus')">+</button>
         </div>
     </div>
-    <button type="button" id="calc-button" type="button" class="btn btn-warning">LASKE</button>
+    <button type="button" id="calc-button" type="button" class="btn btn-warning" 
+    onclick="calculate()">LASKE</button>
+    
     <script defer src="scripts/calculator.js"></script>
 </body>
 
