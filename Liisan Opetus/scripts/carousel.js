@@ -64,3 +64,4 @@ $('#next').click(function () {
 
 
 document.body.style.backgroundImage = "url('images/maalaus.jpg')";
+document.body.style.backgroundSize = "cover"

@@ -37,14 +37,19 @@
 
     <link rel="stylesheet" href="styles/map.css">
 
-    <div class="otsikko">
+    <div class="otsikko" style="
+    text-align: center;">
         <h2>Karttatehtävä!</h2>
     </div>
 
 </head>
 
 <body>
-    <div class=kartta>
+    <div class="kartta" style="
+    padding:1%;
+    margin: auto;
+    width: 50%;
+    text-align: center;">
         <iframe id="inlineFrameExample" title="Inline Frame Example" width="500" height="400" window.onload=function(){
             src="https://www.google.com/maps?q=Yliopistonkatu 36 Lappeenranta&output=embed">}
         </iframe>
@@ -54,7 +59,11 @@
         <p id="info"></p>
     </div>
 
-    <div class="teksti">
+    <div class="teksti" style="
+    padding:1%;
+    margin: auto;
+    width: 50%;
+    text-align: center;">
         <label for="name">Katuosoite:</label>
         <input type="text" id="osoiteArvo" name="name" required minlength="1" maxlength="20" size="15">
         <label for="name">Kaupunki:</label>
