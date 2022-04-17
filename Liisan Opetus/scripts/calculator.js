@@ -32,8 +32,30 @@ function setSecondNr(type) {
   document.getElementById("second-nr").value = currentValue;
 }
 
-/*
-let selectedText = $("#operationSelect option:selected").text(); // +
-let selectedValue = $("#operationSelect").val(); // 1
-*/
+function calculate() {
+  x = null;
+  //y = document.getElementById("ans");
+  z = document.getElementById("ans").value;
+  if (z == 1){
+    x = parseInt(document.getElementById("first-nr").value) + parseInt(document.getElementById("second-nr").value);
+    document.getElementById("answer").value = x;
+  }
+  else if (z == 2){
+    x = document.getElementById("first-nr").value - document.getElementById("second-nr").value;
+    document.getElementById("answer").value = x;
+  }
+  else if (z == 3){
+    x = document.getElementById("first-nr").value * document.getElementById("second-nr").value;
+    document.getElementById("answer").value = x;
+  }
+  else {
+    x = document.getElementById("first-nr").value / document.getElementById("second-nr").value;
+    document.getElementById("answer").value = x;
+  }
+}
+
+//let newAnswer = calculate(type)
+
+
+
 document.body.style.backgroundImage = "url('images/maalaus.jpg')";

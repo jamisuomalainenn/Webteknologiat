@@ -57,12 +57,12 @@
             <button class="btn btn-outline-secondary" type="button" id="button-plus1"
                 onclick="setFirstNr('plus')">+</button>
         </div>
-        <select class="input-group mb-3" aria-label="Default select example">
+        <select class="input-group mb-3" aria-label="Default select example" id="ans">
             <option selected>Open this select menu</option>
             <option value="1">+</option>
             <option value="2">-</option>
             <option value="3">*</option>
-            <option value="3">:</option>
+            <option value="4">/</option>
         </select>
         <div class="input-group mb-3">
             <button class="btn btn-outline-secondary" type="button" id="button-minus2" 
@@ -74,9 +74,15 @@
             <button class="btn btn-outline-secondary" type="button" id="button-plus2" 
             onclick="setSecondNr('plus')">+</button>
         </div>
+        
     </div>
-    <button type="button" id="calc-button" type="button" class="btn btn-warning" 
-    onclick="calculate()">LASKE</button>
+    <div class="calc1">
+        <button type="button" id="calc" type="button" class="btn btn-warning" 
+        onclick=calculate()>LASKE</button>
+    </div>
+    <div class="answer1">
+        <input type="text" value="" id="answer">
+    </div>
     
     <script defer src="scripts/calculator.js"></script>
 </body>
