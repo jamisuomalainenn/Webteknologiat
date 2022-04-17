@@ -26,23 +26,16 @@ $('#prev').click(function () {
 })
 
 $('#mid').click(function () {
-    var timer = -1;
     index = 1;
     $('#text-content').text(pics_array[index].name);
     $('#images').attr("src", pics_array[index].src);
     
-    //clearInterval(timer);
-    if (timer == -1){
-        button.innerHTML = "Pause";
-            timer = setInterval('$("#next").click()', 2000);
-            
-        }
-        else{
-            button.innerHTML = "Start";
-            clearInterval(timer);
-            timer = -1;
-        }
-})
+    var timer = window.setInterval('$("#next").click()', 2000);
+});
+$('#mid').click(function () {
+window.clearInterval(timer);
+});
+
 $('#next').click(function () {
     index = index + 1;
     if (index > 2) {
