@@ -18,14 +18,30 @@ $(function () {
 
 $('#prev').click(function () {
     index = index - 1;
+    if (index < 0) {
+        index = 2;
+    }
     $('#text-content').text(pics_array[index].name);
     $('#images').attr("src", pics_array[index].src);
 })
 
 $('#mid').click(function () {
+    var timer = -1;
     index = 1;
     $('#text-content').text(pics_array[index].name);
     $('#images').attr("src", pics_array[index].src);
+    
+    //clearInterval(timer);
+    if (timer == -1){
+        button.innerHTML = "Pause";
+            timer = setInterval('$("#next").click()', 2000);
+            
+        }
+        else{
+            button.innerHTML = "Start";
+            clearInterval(timer);
+            timer = -1;
+        }
 })
 $('#next').click(function () {
     index = index + 1;
@@ -36,9 +52,15 @@ $('#next').click(function () {
     $('#images').attr("src", pics_array[index].src);
 })
 
-$('#mid').click(function () {
-    var timer = setInterval('$("#next").click()', 2000);
-    window.clearInterval('$("#next").click()', 2000);
-})
+//$('#mid').click(function () {
+   // clearInterval(timer);
+    //let toiminnonTunniste = window.setInterval('$("#next").click()', 2000);
+   // var timer = setInterval('$("#next").click()', 2000);
+    //window.clearInterval('$("#next").click()', 2000);
+//if (toiminnonTunniste = 2,4,6,8,10,12,14,16,18,20){
+  //  window.clearInterval(toiminnonTunniste);
+//}
+//})
+
 
 document.body.style.backgroundImage = "url('images/maalaus.jpg')";
