@@ -29,11 +29,23 @@ $('#mid').click(function () {
     index = 1;
     $('#text-content').text(pics_array[index].name);
     $('#images').attr("src", pics_array[index].src);
-    
-    var timer = window.setInterval('$("#next").click()', 2000);
+    //window.setInterval('$("#next").click()', 2000);
 });
-$('#mid').click(function () {
-window.clearInterval(timer);
+
+$(function(){
+var timer = null, interval = 2000, value = 0;
+$('#start').click(function (){
+    if (timer !== null) return;
+    timer = setInterval(function() {
+        $('#start').val('$("#next").click()');
+    }, interval);
+    });
+
+
+$("#stop").click(function(){
+    clearInterval(timer);
+    timer = null;
+});
 });
 
 $('#next').click(function () {
