@@ -33,6 +33,10 @@
                 href="file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/carousel.html">Mediaelementti</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link"
+                href="file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/imagegallery.html">Kuvagalleria</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link disabled">Disabled</a>
         </li>
     </ul>
@@ -51,14 +55,14 @@
     margin: auto;
     width: 50%;
     text-align: center;">
-        <div class="input-group mb-3"style="
+        <div class="input-group mb-3" style="
         margin: auto;
         width: 50%;
         text-align: center;">
             <button class="btn btn-outline-secondary" type="button" id="button-minus1"
                 onclick="setFirstNr('minus')">-</button>
-            
-                <input type="text" class="form-control" id="first-nr" placeholder=""
+
+            <input type="text" class="form-control" id="first-nr" placeholder=""
                 aria-label="Example text with button addon" aria-describedby="button-addon1">
 
             <button class="btn btn-outline-secondary" type="button" id="button-plus1"
@@ -72,24 +76,23 @@
             <option value="4">/</option>
         </select>
         <div class="input-group mb-3">
-            <button class="btn btn-outline-secondary" type="button" id="button-minus2" 
-            onclick="setSecondNr('minus')">-</button>
-            
+            <button class="btn btn-outline-secondary" type="button" id="button-minus2"
+                onclick="setSecondNr('minus')">-</button>
+
             <input type="text" class="form-control" id="second-nr" placeholder=""
                 aria-label="Example text with button addon" aria-describedby="button-addon1">
 
-            <button class="btn btn-outline-secondary" type="button" id="button-plus2" 
-            onclick="setSecondNr('plus')">+</button>
+            <button class="btn btn-outline-secondary" type="button" id="button-plus2"
+                onclick="setSecondNr('plus')">+</button>
         </div>
-        
+
     </div>
     <div class="calc1" style="
     padding:1%;
     margin: auto;
     width: 50%;
     text-align: center;">
-        <button type="button" id="calc" type="button" class="btn btn-warning" 
-        onclick=calculate()>LASKE</button>
+        <button type="button" id="calc" type="button" class="btn btn-warning" onclick=calculate()>LASKE</button>
     </div>
     <div class="answer1" style="
     padding:1%;
@@ -98,7 +101,7 @@
     text-align: center;">
         <input type="text" value="" id="answer">
     </div>
-    
+
     <script defer src="scripts/calculator.js"></script>
 </body>
 
