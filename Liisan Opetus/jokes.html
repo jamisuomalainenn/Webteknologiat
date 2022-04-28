@@ -8,16 +8,69 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Jokes</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--<script src="scripts/jquery-3.6.0.min.js"></script>-->
+
+    <link rel="stylesheet" href="styles/jokes.css">
+
+    <!--NAVBAR-->
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link"
+                href="file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/index.html">Etusivu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page"
+                href="file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/map.html">Kartta</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"
+                href="file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/calculator.html">Laskin</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"
+                href="file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/carousel.html">Mediaelementti</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"
+                href="file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/imagegallery.html">Kuvagalleria</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"
+                href="file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/jokes.html">Ajax</a>
+        </li>
+
+    </ul>
+    <!--NAVBAR-->
+
 
 </head>
 
 <body>
-    <h3>GitHubAPI: https://api.github.com/users/jamisuomalainenn</h3>
-    <input type="text" id="username" required size="20">
-    <button type="button" id="btn">Search</button>
+    <h3>AJAX - Tehtävä</h3>
+
+
+    <button type="button" class="button" id="btn" onClick="counter(),moi()">Search</button>
+    <p class="counter">Hakuja tehty: <a id="clicks">0</a></p>
+    <img id="gif" class="gif" src="images/loading.gif">
 
     <div id="account-data"></div>
-    <script src="scripts/jokes.js"></script>
+    <div class="text" id="text"></div>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample"></div>
+
+
+
+    <script refer src="scripts/jokes.js"></script>
 </body>
 
 </html>
