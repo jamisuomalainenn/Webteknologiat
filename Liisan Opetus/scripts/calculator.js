@@ -9,7 +9,7 @@ $(function () {
 function setFirstNr(type) {
   let currentValue = document.getElementById("first-nr").value;
 
-  let newValue= parseInt(currentValue);
+  let newValue = parseInt(currentValue);
 
   if (type == 'plus') {
     currentValue = newValue + 1;
@@ -22,7 +22,7 @@ function setFirstNr(type) {
 function setSecondNr(type) {
   let currentValue = document.getElementById("second-nr").value;
 
-  let newValue= parseInt(currentValue); 
+  let newValue = parseInt(currentValue);
 
   if (type == 'plus') {
     currentValue = newValue + 1;
@@ -36,15 +36,15 @@ function calculate() {
   x = null;
   //y = document.getElementById("ans");
   z = document.getElementById("ans").value;
-  if (z == 1){
+  if (z == 1) {
     x = parseInt(document.getElementById("first-nr").value) + parseInt(document.getElementById("second-nr").value);
     document.getElementById("answer").value = x;
   }
-  else if (z == 2){
+  else if (z == 2) {
     x = document.getElementById("first-nr").value - document.getElementById("second-nr").value;
     document.getElementById("answer").value = x;
   }
-  else if (z == 3){
+  else if (z == 3) {
     x = document.getElementById("first-nr").value * document.getElementById("second-nr").value;
     document.getElementById("answer").value = x;
   }
@@ -56,7 +56,12 @@ function calculate() {
 
 //let newAnswer = calculate(type)
 
+var clicks = 0;
 
+function counter() {
+  clicks += 1;
+  document.getElementById("clicks").innerHTML = clicks;
+};
 
 document.body.style.backgroundImage = "url('images/maalaus.jpg')";
 document.body.style.backgroundSize = "cover"
