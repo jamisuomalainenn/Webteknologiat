@@ -17,7 +17,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js%22%3E"></script>
+
     <!--<script src="scripts/jquery-3.6.0.min.js"></script>-->
 
     <link rel="stylesheet" href="styles/jokes.css">
@@ -56,21 +56,23 @@
 </head>
 
 <body>
-    <h1 style="margin-left:mid">AJAX - Tehtävä</h1>
+    <div class="centered" style="padding-top: 20px">
+        <h1 class="otsikko">AJAX - Tehtävä</h1>
+
+        <h5 class="otsikko">Paina buttonista niin saat vitsin!</h5>
+
+        <button type="button" class="button" id="btn">Search</button>
+
+        <p class="counter">Hakuja tehty: <a id="clicks">0</a></p>
+
+        <br>
+        <img class="gif" id="gif" src="images/loading.gif">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample"></div>
 
 
-    <button type="button" class="button" id="btn" onClick="counter(),fetchApi()">Search</button>
-    <p class="counter">Hakuja tehty: <a id="clicks">0</a></p>
-    <img id="gif" class="gif" src="images/loading.gif">
 
-    <div id="account-data"></div>
-    <div class="text" id="text"></div>
-
-    <div class="accordion accordion-flush" id="accordionFlushExample"></div>
-
-
-
-    <script refer src="scripts/jokes.js"></script>
+        <script refer src="scripts/jokes.js"></script>
 </body>
 
 </html>

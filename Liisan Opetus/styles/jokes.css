@@ -1,17 +1,22 @@
-.username {
-    margin-left: 44%;
+.otsikko {
+    margin-left: 20%;
+}
+
+.text {
+    margin-left: 20%;
 }
 
 .button {
-    margin-left: 44%;
+    margin-left: 40%;
 }
 
 .counter {
-    margin-left: 44%;
+    margin-left: 40%;
 }
 
-.account-data {
-    margin-left: 44%;
+.centered {
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 .gif {
