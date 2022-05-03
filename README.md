@@ -19,4 +19,4 @@ Ajax-tehtävä
 
 Liisan puoliskolla aikaisemmin herännyt kiinnostus jatkoi kasvamistaan. Javascriptin opettelua olin odottanutkin koulun alkamisesta lähtien. Tehtävät onnistui todella hyvin ja olen tyytyväinen lopputulokseen. Tehtävät olivat sopivan haastavia, mediaelementti-tehtävässä vaikeuksia tuotti StartStop-nappula, mutta sekin saatiin toimimaan lopulta. Mikään tehtävistä ei ollut helppo, tehtävän valmiiksi saaminen toi isoja onnistumisen tunteita.
 
-Moodleen palautin linkit jokaisen tehtävän HTML-tiedoston. CSS- sekä JavaScript-tiedostot löytyy repositoryn alusta kansioista: "scripts" ja "styles". 
+Moodleen palautin linkit jokaisen tehtävän HTML-tiedoston. CSS- sekä JavaScript-tiedostot löytyy "Liisan opetus" kansion alusta kansioista: "scripts" ja "styles". Tommin opetuksen puolelta CSS-tiedostot löytyy aina nimettyjen tehtävien kansioiden sisältä.
