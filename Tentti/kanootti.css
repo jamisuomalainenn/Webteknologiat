@@ -1,0 +1,42 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.prices {
+    margin-left: 5%;
+}
+
+.dots {
+    margin-left: 5px;
+}
+
+.centered {
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    margin: 10px;
+    padding: 5px;
+    flex-grow: 1;
+    text-align: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.valikot {
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    margin: 10px;
+    padding: 5px;
+    background-color: aqua;
+    flex-grow: 1;
+    text-align: center;
+    flex-direction: column;
+}
+
+.css {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
