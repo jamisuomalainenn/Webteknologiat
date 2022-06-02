@@ -1,4 +1,4 @@
-var helloElement = document.getElementById('hello-div');
+var viewInfo = document.getElementById('info');
 
 window.onload = function () {
     console.log('Moro mään')
