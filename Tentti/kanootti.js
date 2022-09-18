@@ -52,7 +52,7 @@ function calculate() {
         x = document.getElementById("first-nr").value * h3;
         document.getElementById("summa").value = x;
     }
-    else {
+    else if (z == 4) {
         x = document.getElementById("first-nr").value * h4;
         document.getElementById("summa").value = x;
     }
