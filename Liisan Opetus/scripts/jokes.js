@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 var counter = 0;
 var index = 0;
 $("#gif").hide();
@@ -42,3 +44,4 @@ $("#btn").click(function () {
 
 document.body.style.backgroundImage = "url('images/maalaus.jpg')";
 document.body.style.backgroundSize = "cover"
+>>>>>>> 8183ecb443c0b028df27887dc2774ea07d93bd42

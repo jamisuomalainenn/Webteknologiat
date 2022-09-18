@@ -8,12 +8,11 @@
     display: block;
     grid-template-columns: auto auto auto;
     line-gap-override: 100px;
-
 }
 
 .body {
 
-    padding: 5%;
+    padding: 1%;
     margin: auto;
     width: 50%;
     text-align: center;

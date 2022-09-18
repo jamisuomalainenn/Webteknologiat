@@ -14,7 +14,6 @@
         crossorigin="anonymous"></script>
     <script src="javascript/jquery-3.6.0.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!--NAVBAR-->
     <ul class="nav">
         <li class="nav-item">
@@ -38,24 +37,22 @@
                 href="file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/imagegallery.html">Kuvagalleria</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link"
-                href="file:///C:/Users/OMISTAJA/Documents/Visual%20Studio%20files/webteknologia/Webteknologiat/Liisan%20Opetus/jokes.html">Ajax</a>
+            <a class="nav-link disabled">Disabled</a>
         </li>
     </ul>
     <!--NAVBAR-->
-
 </head>
 
 <body>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" style="margin-left: 45%">LASKIN</a>
+            <a class="navbar-brand">LASKIN</a>
         </div>
     </nav>
     <br><br>
     <div class="d-inline-flex p-2" style="
     padding:33%;
-    margin-left: 20%;
+    margin: auto;
     width: 50%;
     text-align: center;">
         <div class="input-group mb-3" style="
@@ -95,9 +92,7 @@
     margin: auto;
     width: 50%;
     text-align: center;">
-        <button type="button" id="calc" type="button" class="btn btn-warning"
-            onclick=calculate(),counter()>LASKE</button>
-
+        <button type="button" id="calc" type="button" class="btn btn-warning" onclick=calculate()>LASKE</button>
     </div>
     <div class="answer1" style="
     padding:1%;
@@ -105,9 +100,7 @@
     width: 50%;
     text-align: center;">
         <input type="text" value="" id="answer">
-        <p class="counter">Laskutoimituksia tehty: <a id="clicks">0</a> kpl</p>
     </div>
-
 
     <script defer src="scripts/calculator.js"></script>
 </body>

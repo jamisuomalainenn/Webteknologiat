@@ -6,12 +6,20 @@ let pics_array = [
 let toiminnontunnisto;
 let x = 1;
 let index;
+let start;
+constIndex = 'myPics';
 
 $(function () {
-    index = 1;
-
-    $('#text-content').text(pics_array[index].name);
-    $('#images').attr("src", pics_array[index].src);
+    if (localStorage.hasOwnProperty(IndexKey)) {
+        index = localStorage.getItem(IndexKey);
+        console.log('index is:' + index);
+    }
+    else {
+        index = 0;
+    }
+    start = 0;
+    $('#kuva').attr("src", story_array[index].src);
+    $('#text-title').text(story_array[index].title);
 });
 
 $('#prev').click(function () {
@@ -56,4 +64,4 @@ $('#next').click(function () {
 
 
 document.body.style.backgroundImage = "url('images/maalaus.jpg')";
-document.body.style.backgroundSize = "cover"
+document.body.style.backgroundSize = "cover";
