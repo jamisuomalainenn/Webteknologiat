@@ -1,22 +1,27 @@
-# Webteknologiat
+📂 Project Progress
 
-Repositoryssä luotu kansiot Tommin, että Liisan opetukselle erikseen. 
-Tommin opetuksen tehtävät: 
-HTML-tehtävä,
-Lomake-tehtävä,
-CSS-tehtävä 1,
-CSS-tehtävä 2
+The repository is organized into two main sets of exercises: Tommi’s exercises and Liisa’s exercises.
 
-Tommin puoliskolla kiinnostus lähti kovasti nousuun, vihdoin pääsi tekemään jotain, jossa oman käden jälki näkyy. Kaikki oli taas uutta, ymmärrystä ei heti alkuun meinannut olla, joten ainakin CSS-tehtävä 2, eli gridin käsittely tuotti haasteita, näin tämä tehtävä saattaa olla hieman vajaavainen. Kuitenkin olen tyytyväinen käden jälkeeni, ottaen huomioon kokemukseni.
+Tommi’s Exercises
 
-Liisan tehtävät:
-JavaScriptiin tutustuminen,
-Kartta-tehtävä,
-Laskin-tehtävä,
-Vaihtuvasisältöinen Mediaelementti-tehtävä,
-Ruudukkotehtävä (lista ja grid),
-Ajax-tehtävä
+Tasks: HTML task, Form task, CSS task 1, CSS task 2
 
-Liisan puoliskolla aikaisemmin herännyt kiinnostus jatkoi kasvamistaan. Javascriptin opettelua olin odottanutkin koulun alkamisesta lähtien. Tehtävät onnistui todella hyvin ja olen tyytyväinen lopputulokseen. Tehtävät olivat sopivan haastavia, mediaelementti-tehtävässä vaikeuksia tuotti StartStop-nappula, mutta sekin saatiin toimimaan lopulta. Mikään tehtävistä ei ollut helppo, tehtävän valmiiksi saaminen toi isoja onnistumisen tunteita.
+Progress & Reflection:
+During this part, my interest grew significantly—I finally got to do something where my own work was visible. Everything was new, and understanding didn’t come immediately. CSS task 2, which involved working with the grid, was particularly challenging, so it may be slightly incomplete.
+✅ Overall, I am satisfied with my work considering my experience level.
 
-Tommin tehtävien palautuksiin laitoin linkit tehtävien kansioihin, kansiot sisältää CSS-tiedostot, kuvat ja HTML-tiedostot. Koska Liisan tehtävät tehtiin samoihin kansioihin, palautin Java-, CSS- ja HTML-linkit jokaiseen moodlen palautusboxiin. Jos joku linkki ei jostain syystä toimi, kansioiden välillä on helppo navigoida GitHubissa, koska ne on nimetty loogisesti. Kiitos kurssista :)
+Liisa’s Exercises
+
+Tasks: Introduction to JavaScript, Map task, Calculator task, Dynamic Media Element task, Grid task (list and grid), Ajax task
+
+Progress & Reflection:
+Interest continued to grow during this part. I had been looking forward to learning JavaScript since the beginning of the course. The tasks were challenging but achievable. The Media Element task posed difficulties with the Start/Stop button, but it was eventually made to work. Completing each task brought a strong sense of accomplishment.
+✅ I am very satisfied with the results.
+
+Submission Notes
+
+For Tommi’s exercises, links to the task folders are provided, including CSS files, images, and HTML files.
+
+Liisa’s exercises were completed in the same folders, so Java, CSS, and HTML links were included in each Moodle submission box.
+
+If a link does not work, navigating between folders on GitHub is straightforward because the folders are logically named.
